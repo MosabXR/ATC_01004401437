@@ -16,7 +16,7 @@ TicketGo is a modern web application for managing event tickets, built with Reac
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/MosabXR/ATC_01004401437
 cd ticketgo-app
 ```
 
