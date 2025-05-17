@@ -41,7 +41,7 @@ const DefaultNavbar = () => {
             <TicketIcon className="h-4 w-4" />
           </IconButton>
         </Link>
-        // This has a little bug on refresh it disappears
+        {/* This has a little bug on refresh it disappears */}
         {user && user.role === "admin" && (
           <Link to="/admin">
             <IconButton variant="text" color="black">
