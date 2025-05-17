@@ -28,7 +28,7 @@ cd server
 # Install dependencies
 npm install
 
-# Create a .env file in the server directory
+# Create a config.env file in the server directory
 touch config.env
 ```
 
@@ -36,7 +36,7 @@ Add the following to your `config.env` file:
 
 ```env
 PORT=8000
-MONGODB_URI=mongodb://localhost:27017/ticketgo
+MONGODB_URI=mongodb+srv://mosabelkalyouby:<PASSWORD>@booking-app.doogid4.mongodb.net/booking
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRES_IN=90d
 ```
@@ -56,7 +56,7 @@ npm install
 #### Start the Backend Server
 
 ```bash
-cd server
+cd ../server
 npm run dev
 ```
 
