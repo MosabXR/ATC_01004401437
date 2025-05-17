@@ -43,6 +43,16 @@ The application should now be running at:
 - Frontend: http://localhost:5173
 - Backend: http://localhost:8000
 
+### Deployment
+
+Server-side has been deployed on render
+`https://ticketgo-server.onrender.com`
+
+Client-side has been deployed on vercel
+`https://ticketgo-gold.vercel.app/`
+
+These deployments were incomplete versions, I'm sorry I did not have time deploying the final version due to my exams
+
 ## Authentication
 
 The application uses JWT (JSON Web Tokens) for authentication. Protected routes are implemented using the `ProtectedRoute` component.
