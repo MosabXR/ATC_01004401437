@@ -23,35 +23,18 @@ cd ATC_01004401437
 ### 2. Backend Setup
 
 ```bash
+// Start a new terminal at ATC_01004401437 directory
 cd server
-
-# Install dependencies
 npm install
+npm run dev
 ```
 
 ### 3. Frontend Setup
 
 ```bash
-cd ../client
-
-# Install dependencies
+// Start a new terminal at ATC_01004401437 directory
+cd client
 npm install
-
-```
-
-### 4. Start the Development Servers
-
-#### Start the Backend Server
-
-```bash
-cd ../server
-npm run dev
-```
-
-#### Start the Frontend Server
-
-```bash
-cd ../client
 npm run dev
 ```
 
